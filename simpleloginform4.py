@@ -31,7 +31,7 @@ search_entry.place(relx=0.5, rely=0.1, anchor=CENTER)
 
 
 
-# make login button and place it in the window
+# make search button and place it in the window
 search_Button = Button(win, text="Search", command=myclick)
 search_Button.pack(side= BOTTOM)
 
