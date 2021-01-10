@@ -12,11 +12,11 @@ win = Tk()
 win.title("Scrap Me")
 win.geometry("400x300")
 
-# define click function for login button
+# define click function for search button
 def myclick():
 
-    greeting_user = "Hello " + search_entry.get()
-    my_label = Label(win, text=greeting_user)
+    show_text = "Searching " + search_entry.get()
+    my_label = Label(win, text=show_text)
     my_label.place(relx=0.5, rely=0.4, anchor=CENTER)
 
     
